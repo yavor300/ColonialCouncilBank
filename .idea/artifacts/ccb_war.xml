@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="ccb:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>ccb</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="ccb-0.0.1-SNAPSHOT.war">
+      <element id="artifact" artifact-name="ccb:war exploded" />
+    </root>
+  </artifact>
+</component>
